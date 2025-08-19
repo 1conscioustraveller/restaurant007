@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le Jardin Secret | Restaurant Parisien</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="header-logo">
+            <h1>Le Jardin Secret</h1>
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">Notre Histoire</a></li>
+                <li><a href="#reservations">Réservations</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <h2>Une expérience culinaire inoubliable</h2>
+                <p>Découvrez l'élégance et la passion de la cuisine française moderne au cœur de Paris.</p>
+                <a href="#reservations" class="cta-button">Réserver une table</a>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <div class="about-content">
+                <h3>Notre Histoire</h3>
+                <p>Depuis 1985, Le Jardin Secret propose une cuisine raffinée, inspirée par les produits de saison et les saveurs du terroir. Notre chef, Jean-Luc Dubois, élabore une carte qui évolue au gré des saisons pour une cuisine toujours surprenante et délicate.</p>
+                <a href="#" class="more-link">Lire la suite</a>
+            </div>
+            <div class="about-image">
+                <img src="https://images.unsplash.com/photo-1555547000-f1c5040f7b54?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Inside a beautifully decorated restaurant">
+            </div>
+        </section>
+
+        <section id="menu" class="menu-section">
+            <div class="menu-content">
+                <h3>Notre Menu</h3>
+                <p>Chaque plat est une œuvre d'art, préparée avec des ingrédients locaux et de première qualité. Venez savourer notre menu dégustation, ou choisissez parmi nos plats emblématiques.</p>
+                <a href="#" class="cta-button">Voir le menu complet</a>
+            </div>
+        </section>
+
+        <section id="reservations" class="reservations-section">
+            <h3>Réservations</h3>
+            <p>Nous vous invitons à réserver votre table à l'avance pour garantir votre place.</p>
+            <form action="#" method="post" class="reservation-form">
+                <input type="text" name="name" placeholder="Nom Complet" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="tel" name="phone" placeholder="Téléphone">
+                <input type="date" name="date" required>
+                <input type="time" name="time" required>
+                <select name="guests" required>
+                    <option value="">Nombre de personnes</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6+</option>
+                </select>
+                <button type="submit" class="cta-button">Réserver</button>
+            </form>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <h3>Contactez-nous</h3>
+            <div class="contact-info">
+                <p>12 Rue du Faubourg Saint-Honoré<br>75008 Paris, France</p>
+                <p>+33 1 23 45 67 89</p>
+                <p>contact@lejardinsecret.fr</p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-links">
+            <a href="#">Politique de Confidentialité</a>
+            <a href="#">Conditions Générales</a>
+            <a href="#">Mentions Légales</a>
+        </div>
+        <p>&copy; 2025 Le Jardin Secret. Tous droits réservés.</p>
+    </footer>
+
+</body>
+</html>
